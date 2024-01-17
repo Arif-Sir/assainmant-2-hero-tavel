@@ -1,5 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
-
 body{
     font-family: 'Mulish', sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px 20px;
+}
+.top-title{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.top-title img{
+    width: 48px;
+    height: 56.008px;
+}
+.top-options ul{
+    display: flex;
+}
+.top-options ul li{
+    list-style: none;
+    margin-right: 1.5rem;
+}
+
+
